@@ -23,7 +23,7 @@
     </script>
     <script src="{{media_url}}/js/jquery.textcomplete.js" type="text/javascript"></script>
     <script type="text/javascript">
-	$('textarea.file-paste-zone').textcomplete([
+	$('#textarea1').textcomplete([
 	    { // emoji strategy
 		match: /\B:([\-+\w]*)$/,
 		search: function (term, callback) {
