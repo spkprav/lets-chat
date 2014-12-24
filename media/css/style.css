@@ -531,10 +531,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
+
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -543,10 +543,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
+
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -7785,3 +7785,15 @@ background-image: url("https://twemoji.maxcdn.com/svg/1f6ba.svg"); }
 background-image: url("https://twemoji.maxcdn.com/svg/274c.svg"); }
 .twa-zero {
 background-image: url("https://twemoji.maxcdn.com/svg/30-20e3.svg"); }
+.twa-rofl{
+background-image: url("../img/smileys/rofl.gif");
+}
+.twa-facepalm{
+background-image: url("../img/smileys/facepalm.gif");
+}
+.twa-finger{
+background-image: url("../img/smileys/finger.gif");
+}
+.twa-mooning{
+background-image: url("../img/smileys/mooning.gif");
+}
