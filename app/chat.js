@@ -147,7 +147,7 @@ var ChatServer = function (config, server, sessionStore) {
                         docs.forEach(function (message) {
 				                      var msgtext = message.text;
                             	cheat.forEach(function(ev,ei){
-				                            var st = '<span class="twa twa-2x twa-'+ev+'"></span>';
+				                            var st = '<span class="twa twa-2x twa-'+ev+'" title="'+ev+'"></span>';
             			                  msgtext = msgtext.replace(':'+ev+':',st);
 				                      });
 				                    messages.push({
@@ -189,7 +189,7 @@ var ChatServer = function (config, server, sessionStore) {
                     /** by praveen **/
 		                var msgtext = message.text;
                     cheat.forEach(function(ev,ei){
-                        var st = '<span class="twa twa-2x twa-'+ev+'"></span>';
+                        var st = '<span class="twa twa-2x twa-'+ev+'" title="'+ev+'"></span>';
                     	msgtext = msgtext.replace(':'+ev+':',st);
                     });
                     /** by praveen **/
