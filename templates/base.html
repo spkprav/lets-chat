@@ -18,6 +18,7 @@
     <script src="{{media_url}}/js/lib/mustache.js" type="text/javascript"></script>
 
     <script src="{{media_url}}/js/common.js" type="text/javascript"></script>
+    <script src="{{media_url}}/js/emojify.js" type="text/javascript"></script>
 
     {% block page_js %}{% endblock %}
 
@@ -25,5 +26,11 @@
 <body class="{% block body_class %}{% endblock %}" {% block body_attributes %}{% endblock %}>
     {% block content %}{% endblock %}
     {% block page_assets %}{% endblock %}
+
+<script>
+      emojify.setConfig({emojify_tag_type:'div'});
+      emojify.run();
+</script>
+
 </body>
 </html>

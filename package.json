@@ -17,28 +17,34 @@
     "group chat"
   ],
   "dependencies": {
-    "express": "3.0.6",
     "connect": "2.7.5",
-    "express-namespace": "0.1.1",
     "connect-mongo": "0.3.2",
-    "mongoose": "3.6.4",
-    "swig": "0.14.0",
-    "socket.io": "0.9.16 ",
-    "underscore": "1.5.2",
-    "node_hash": "0.2.0",
-    "moment": "1.7.2",
-    "validator": "0.5.0",
     "consolidate": "0.9.0",
+    "emojify.js": "^0.9.5",
+    "express": "3.0.6",
+    "express-namespace": "0.1.1",
+    "knox": "~0.8.9",
+    "moment": "1.7.2",
+    "mongoose": "3.6.4",
+    "mongoose-unique-validator": "~0.3.0",
+    "node-emoji": "^0.1.0",
+    "node_hash": "0.2.0",
     "passport": "0.1.16",
     "passport-local": "0.1.6",
     "passport.socketio": "1.0.1",
-    "knox": "~0.8.9",
-    "mongoose-unique-validator": "~0.3.0"
+    "socket.io": "0.9.16 ",
+    "swig": "0.14.0",
+    "underscore": "1.5.2",
+    "validator": "0.5.0"
   },
   "engine": {
     "node": ">=0.7"
   },
   "scripts": {
     "start": "node app.js"
+  },
+  "repository": {
+        "type": "git",
+        "url": "git@github.com:kof/emoticons.git"
   }
 }

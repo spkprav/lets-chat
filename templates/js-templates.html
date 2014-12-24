@@ -20,8 +20,8 @@
                     <time>{{ time }}</time>
                 </div>
                 <div class="text">
-                    {{^paste}}{{ text }}{{/paste}} 
-                    {{#paste}}<pre>{{ text }}</pre>{{/paste}}
+                    {{^paste}} {{& text }} {{/paste}}
+		    {{#paste}}<pre>{{ text }}</pre>{{/paste}}
                 </div>
             </div>
         </li>
@@ -65,7 +65,7 @@
                 <div class="entry file-drop-zone">
                     <textarea type="text" name="talk" class="file-paste-zone"></textarea>
                     <div class="buttons">
-                        <button class="send btn btn-info">Send</button>
+                        <button class="send btn btn-info">Send</button><br />
                     </div>
                 </div>
             </div><!-- chat end -->
